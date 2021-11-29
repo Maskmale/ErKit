@@ -1,0 +1,29 @@
+# ErKit
+
+[![CI Status](https://img.shields.io/travis/Erbash/ErKit.svg?style=flat)](https://travis-ci.org/Erbash/ErKit)
+[![Version](https://img.shields.io/cocoapods/v/ErKit.svg?style=flat)](https://cocoapods.org/pods/ErKit)
+[![License](https://img.shields.io/cocoapods/l/ErKit.svg?style=flat)](https://cocoapods.org/pods/ErKit)
+[![Platform](https://img.shields.io/cocoapods/p/ErKit.svg?style=flat)](https://cocoapods.org/pods/ErKit)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+ErKit is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ErKit'
+```
+
+## Author
+
+Erbash, maskmale@aliyun.com
+
+## License
+
+ErKit is available under the MIT license. See the LICENSE file for more info.
