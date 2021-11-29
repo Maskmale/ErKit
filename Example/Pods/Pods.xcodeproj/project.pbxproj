@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03289A02187096BF12BDB5DAFCEEA998 /* Pods-ErKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 852DB728FB85D6D496C5B0E8B0F8AC79 /* Pods-ErKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A03C97544A8D896B28BDB6201D0CDEB /* Pods-ErKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306E152DBC9EDCA89DCA259A97C0606 /* Pods-ErKit_Tests-dummy.m */; };
+		0DE3881E2754F80E0069149C /* EZLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388082754F80E0069149C /* EZLog.swift */; };
+		0DE3881F2754F80E0069149C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0DE388092754F80E0069149C /* .gitkeep */; };
+		0DE388202754F80E0069149C /* ERExtension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880B2754F80E0069149C /* ERExtension+UIImage.swift */; };
+		0DE388212754F80E0069149C /* ERExtension+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880C2754F80E0069149C /* ERExtension+NSObject.swift */; };
+		0DE388222754F80E0069149C /* ERExtension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880D2754F80E0069149C /* ERExtension+String.swift */; };
+		0DE388232754F80E0069149C /* ERExtension+UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880E2754F80E0069149C /* ERExtension+UIEdgeInsets.swift */; };
+		0DE388242754F80E0069149C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0DE3880F2754F80E0069149C /* .gitkeep */; };
+		0DE388252754F80E0069149C /* ERExtension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388102754F80E0069149C /* ERExtension+Date.swift */; };
+		0DE388262754F80E0069149C /* ERExtension+SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388112754F80E0069149C /* ERExtension+SwiftyStoreKit.swift */; };
+		0DE388272754F80E0069149C /* ERExtension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388122754F80E0069149C /* ERExtension+UITableViewCell.swift */; };
+		0DE388282754F80E0069149C /* ERExtension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388132754F80E0069149C /* ERExtension+Array.swift */; };
+		0DE388292754F80E0069149C /* ERExtension+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388142754F80E0069149C /* ERExtension+URL.swift */; };
+		0DE3882A2754F80E0069149C /* ERExtension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388152754F80E0069149C /* ERExtension+UIButton.swift */; };
+		0DE3882B2754F80E0069149C /* ERExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388162754F80E0069149C /* ERExtension.swift */; };
+		0DE3882C2754F80E0069149C /* ERExtension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388172754F80E0069149C /* ERExtension+UIColor.swift */; };
+		0DE3882D2754F80E0069149C /* ERExtension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388182754F80E0069149C /* ERExtension+Int.swift */; };
+		0DE3882E2754F80E0069149C /* ERExtension+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388192754F80E0069149C /* ERExtension+UIDevice.swift */; };
+		0DE3882F2754F80E0069149C /* ERExtension+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3881A2754F80E0069149C /* ERExtension+UIApplication.swift */; };
+		0DE388302754F80E0069149C /* ERExtension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3881B2754F80E0069149C /* ERExtension+UIBarButtonItem.swift */; };
+		0DE388312754F80E0069149C /* ERExtension+NSTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3881C2754F80E0069149C /* ERExtension+NSTextAlignment.swift */; };
+		0DE388322754F80E0069149C /* ERExtension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3881D2754F80E0069149C /* ERExtension+UIView.swift */; };
+		0E26C6C22494CF2323F9A068D50A0BC3 /* ErKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 649A85D1FE73BC8DEAF71F0D621B8E6F /* ErKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7323CDDE142AB12BE9A64A71EDE167BE /* Pods-ErKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2D68EF3D2172F6F9F26CBD1B31B06 /* Pods-ErKit_Example-dummy.m */; };
+		BD2A0D8C2B2C3D067A6E9A3D23FD9719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C439006E1C71A52B13A9151CE660F00A /* ErKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42502941AC14107D62D701CAEBF0A03B /* ErKit-dummy.m */; };
+		C812B5F40A4B204BF71C49A2B4B53C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D297E746076E0B2C31FC0263A6C6B1F9 /* Pods-ErKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F5AE70950D2367DE6F93B0E1057901 /* Pods-ErKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81EDC1783087AA0C751A1E213E733AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33CD608D32E0ED48FCD83371C56AAE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D73153DDD8A1FC18205C98C5FA2B3024;
+			remoteInfo = ErKit;
+		};
+		38640CF10CF35E548EB8DC09CE67FA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3713FB5B5E888535E2ECAA398DA2F2;
+			remoteInfo = "Pods-ErKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE388082754F80E0069149C /* EZLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLog.swift; sourceTree = "<group>"; };
+		0DE388092754F80E0069149C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0DE3880B2754F80E0069149C /* ERExtension+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIImage.swift"; sourceTree = "<group>"; };
+		0DE3880C2754F80E0069149C /* ERExtension+NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+NSObject.swift"; sourceTree = "<group>"; };
+		0DE3880D2754F80E0069149C /* ERExtension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+String.swift"; sourceTree = "<group>"; };
+		0DE3880E2754F80E0069149C /* ERExtension+UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIEdgeInsets.swift"; sourceTree = "<group>"; };
+		0DE3880F2754F80E0069149C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0DE388102754F80E0069149C /* ERExtension+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+Date.swift"; sourceTree = "<group>"; };
+		0DE388112754F80E0069149C /* ERExtension+SwiftyStoreKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+SwiftyStoreKit.swift"; sourceTree = "<group>"; };
+		0DE388122754F80E0069149C /* ERExtension+UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UITableViewCell.swift"; sourceTree = "<group>"; };
+		0DE388132754F80E0069149C /* ERExtension+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+Array.swift"; sourceTree = "<group>"; };
+		0DE388142754F80E0069149C /* ERExtension+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+URL.swift"; sourceTree = "<group>"; };
+		0DE388152754F80E0069149C /* ERExtension+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIButton.swift"; sourceTree = "<group>"; };
+		0DE388162754F80E0069149C /* ERExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERExtension.swift; sourceTree = "<group>"; };
+		0DE388172754F80E0069149C /* ERExtension+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIColor.swift"; sourceTree = "<group>"; };
+		0DE388182754F80E0069149C /* ERExtension+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+Int.swift"; sourceTree = "<group>"; };
+		0DE388192754F80E0069149C /* ERExtension+UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIDevice.swift"; sourceTree = "<group>"; };
+		0DE3881A2754F80E0069149C /* ERExtension+UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIApplication.swift"; sourceTree = "<group>"; };
+		0DE3881B2754F80E0069149C /* ERExtension+UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		0DE3881C2754F80E0069149C /* ERExtension+NSTextAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+NSTextAlignment.swift"; sourceTree = "<group>"; };
+		0DE3881D2754F80E0069149C /* ERExtension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIView.swift"; sourceTree = "<group>"; };
+		343AC736E7E29698324DE0BA85D257CA /* Pods-ErKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ErKit_Example.modulemap"; sourceTree = "<group>"; };
+		417357917989D7FAC4D359EBC580DE48 /* Pods-ErKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ErKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		42502941AC14107D62D701CAEBF0A03B /* ErKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ErKit-dummy.m"; sourceTree = "<group>"; };
+		43E1B8A2B8BDB0B6C30881FE2B827B75 /* ErKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ErKit-Info.plist"; sourceTree = "<group>"; };
+		4D0CBF2ABED44FEBBC8C549F9143A116 /* Pods-ErKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ErKit_Example"; path = Pods_ErKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E786B323647E92951545103D818874 /* ErKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ErKit.release.xcconfig; sourceTree = "<group>"; };
+		54FAE927C03C60C22D56D6D01357C698 /* Pods-ErKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ErKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		575E12478DC0E048A727501A2F238CBF /* Pods-ErKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ErKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		5DBC1C01F40C096B95998C7159BE9493 /* Pods-ErKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ErKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6306E152DBC9EDCA89DCA259A97C0606 /* Pods-ErKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ErKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		649A85D1FE73BC8DEAF71F0D621B8E6F /* ErKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ErKit-umbrella.h"; sourceTree = "<group>"; };
+		69B538774A533AF1786D0CF79E7F306A /* Pods-ErKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ErKit_Example-Info.plist"; sourceTree = "<group>"; };
+		6EA2D68EF3D2172F6F9F26CBD1B31B06 /* Pods-ErKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ErKit_Example-dummy.m"; sourceTree = "<group>"; };
+		6FDED9B0F8EF71C6E98DEAA034CB4A70 /* Pods-ErKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ErKit_Tests"; path = Pods_ErKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		768507462B633CA910A85D337508D806 /* Pods-ErKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ErKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE19672D487AF8B3EA9D79F39412904 /* ErKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ErKit.modulemap; sourceTree = "<group>"; };
+		852DB728FB85D6D496C5B0E8B0F8AC79 /* Pods-ErKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ErKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		96CC4ADA1C5737FD8BD27CDDB6EBA2E5 /* Pods-ErKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ErKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CADAAC41C25845FC118E97E575DFEA3 /* Pods-ErKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ErKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A76E97E2213E721B632181520B4690CA /* ErKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ErKit-prefix.pch"; sourceTree = "<group>"; };
+		B5D190E3070610C7478327C954DFA93C /* Pods-ErKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ErKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF1D15A9FF3D323D8D3E44B9E0C39433 /* Pods-ErKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ErKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC30B9F31214B1E83E728D997AAE281A /* ErKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ErKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D209446C6BB4630E978FFCEA974B385A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6F5AE70950D2367DE6F93B0E1057901 /* Pods-ErKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ErKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF04B3CFCC321BC2C4615BB4A7490021 /* Pods-ErKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ErKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E084C0FB7CFF9703AC4F2409FD74AB6E /* ErKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ErKit.debug.xcconfig; sourceTree = "<group>"; };
+		EB96DDB0FD6BECA6FF44B0A8D3300643 /* ErKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ErKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55CA5F153D279C6AA2F29251CAAD72F /* Pods-ErKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ErKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F72BED5F776C284B32198643B5E94278 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040EDC24CF9D02F8C5B7776AA813712D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2A0D8C2B2C3D067A6E9A3D23FD9719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE4E5E16B804D5579C5134C9490E350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81EDC1783087AA0C751A1E213E733AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B6C3D72A5B78B79436BA7D90B2EAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C812B5F40A4B204BF71C49A2B4B53C42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC4B202C9BA5DEFB2AF60025CDD6523 /* Pods-ErKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				343AC736E7E29698324DE0BA85D257CA /* Pods-ErKit_Example.modulemap */,
+				96CC4ADA1C5737FD8BD27CDDB6EBA2E5 /* Pods-ErKit_Example-acknowledgements.markdown */,
+				54FAE927C03C60C22D56D6D01357C698 /* Pods-ErKit_Example-acknowledgements.plist */,
+				6EA2D68EF3D2172F6F9F26CBD1B31B06 /* Pods-ErKit_Example-dummy.m */,
+				417357917989D7FAC4D359EBC580DE48 /* Pods-ErKit_Example-frameworks.sh */,
+				69B538774A533AF1786D0CF79E7F306A /* Pods-ErKit_Example-Info.plist */,
+				D6F5AE70950D2367DE6F93B0E1057901 /* Pods-ErKit_Example-umbrella.h */,
+				768507462B633CA910A85D337508D806 /* Pods-ErKit_Example.debug.xcconfig */,
+				B5D190E3070610C7478327C954DFA93C /* Pods-ErKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ErKit_Example";
+			path = "Target Support Files/Pods-ErKit_Example";
+			sourceTree = "<group>";
+		};
+		0DE388072754F80E0069149C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0DE388082754F80E0069149C /* EZLog.swift */,
+				0DE388092754F80E0069149C /* .gitkeep */,
+				0DE3880A2754F80E0069149C /* ERExtension */,
+			);
+			name = Classes;
+			path = ErKit/Classes;
+			sourceTree = "<group>";
+		};
+		0DE3880A2754F80E0069149C /* ERExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0DE3880B2754F80E0069149C /* ERExtension+UIImage.swift */,
+				0DE3880C2754F80E0069149C /* ERExtension+NSObject.swift */,
+				0DE3880D2754F80E0069149C /* ERExtension+String.swift */,
+				0DE3880E2754F80E0069149C /* ERExtension+UIEdgeInsets.swift */,
+				0DE3880F2754F80E0069149C /* .gitkeep */,
+				0DE388102754F80E0069149C /* ERExtension+Date.swift */,
+				0DE388112754F80E0069149C /* ERExtension+SwiftyStoreKit.swift */,
+				0DE388122754F80E0069149C /* ERExtension+UITableViewCell.swift */,
+				0DE388132754F80E0069149C /* ERExtension+Array.swift */,
+				0DE388142754F80E0069149C /* ERExtension+URL.swift */,
+				0DE388152754F80E0069149C /* ERExtension+UIButton.swift */,
+				0DE388162754F80E0069149C /* ERExtension.swift */,
+				0DE388172754F80E0069149C /* ERExtension+UIColor.swift */,
+				0DE388182754F80E0069149C /* ERExtension+Int.swift */,
+				0DE388192754F80E0069149C /* ERExtension+UIDevice.swift */,
+				0DE3881A2754F80E0069149C /* ERExtension+UIApplication.swift */,
+				0DE3881B2754F80E0069149C /* ERExtension+UIBarButtonItem.swift */,
+				0DE3881C2754F80E0069149C /* ERExtension+NSTextAlignment.swift */,
+				0DE3881D2754F80E0069149C /* ERExtension+UIView.swift */,
+			);
+			path = ERExtension;
+			sourceTree = "<group>";
+		};
+		1C354BB8F7C55DDDE32AB84C96C290BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC4B202C9BA5DEFB2AF60025CDD6523 /* Pods-ErKit_Example */,
+				AC9EB62D1DD3FA99714F21D1D8C096BB /* Pods-ErKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3CF813EE254DA930734847B1250E1718 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE19672D487AF8B3EA9D79F39412904 /* ErKit.modulemap */,
+				42502941AC14107D62D701CAEBF0A03B /* ErKit-dummy.m */,
+				43E1B8A2B8BDB0B6C30881FE2B827B75 /* ErKit-Info.plist */,
+				A76E97E2213E721B632181520B4690CA /* ErKit-prefix.pch */,
+				649A85D1FE73BC8DEAF71F0D621B8E6F /* ErKit-umbrella.h */,
+				E084C0FB7CFF9703AC4F2409FD74AB6E /* ErKit.debug.xcconfig */,
+				50E786B323647E92951545103D818874 /* ErKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ErKit";
+			sourceTree = "<group>";
+		};
+		557034E90B0029F2CA1481ADC2CE9C5F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0DE388072754F80E0069149C /* Classes */,
+				CC30B9F31214B1E83E728D997AAE281A /* ErKit.podspec */,
+				F72BED5F776C284B32198643B5E94278 /* LICENSE */,
+				D209446C6BB4630E978FFCEA974B385A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		667728D9D10D4F62A628628034D4AC1B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B94BC50DD715EB6EB1A8FEA5A9AAD8D /* ErKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6B94BC50DD715EB6EB1A8FEA5A9AAD8D /* ErKit */ = {
+			isa = PBXGroup;
+			children = (
+				557034E90B0029F2CA1481ADC2CE9C5F /* Pod */,
+				3CF813EE254DA930734847B1250E1718 /* Support Files */,
+			);
+			name = ErKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AC9EB62D1DD3FA99714F21D1D8C096BB /* Pods-ErKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF04B3CFCC321BC2C4615BB4A7490021 /* Pods-ErKit_Tests.modulemap */,
+				BF1D15A9FF3D323D8D3E44B9E0C39433 /* Pods-ErKit_Tests-acknowledgements.markdown */,
+				F55CA5F153D279C6AA2F29251CAAD72F /* Pods-ErKit_Tests-acknowledgements.plist */,
+				6306E152DBC9EDCA89DCA259A97C0606 /* Pods-ErKit_Tests-dummy.m */,
+				575E12478DC0E048A727501A2F238CBF /* Pods-ErKit_Tests-Info.plist */,
+				852DB728FB85D6D496C5B0E8B0F8AC79 /* Pods-ErKit_Tests-umbrella.h */,
+				9CADAAC41C25845FC118E97E575DFEA3 /* Pods-ErKit_Tests.debug.xcconfig */,
+				5DBC1C01F40C096B95998C7159BE9493 /* Pods-ErKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ErKit_Tests";
+			path = "Target Support Files/Pods-ErKit_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				667728D9D10D4F62A628628034D4AC1B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D3C5A20533E238F6A83C603A49706F08 /* Products */,
+				1C354BB8F7C55DDDE32AB84C96C290BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C5A20533E238F6A83C603A49706F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB96DDB0FD6BECA6FF44B0A8D3300643 /* ErKit.framework */,
+				4D0CBF2ABED44FEBBC8C549F9143A116 /* Pods-ErKit_Example */,
+				6FDED9B0F8EF71C6E98DEAA034CB4A70 /* Pods-ErKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54286B688235E20BA6F17EBE3DED7576 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03289A02187096BF12BDB5DAFCEEA998 /* Pods-ErKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C0F0EA3BFCD698DBF12CD6187D41AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D297E746076E0B2C31FC0263A6C6B1F9 /* Pods-ErKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA35BF7A6D41B8DA2204CF0C1BAA324 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E26C6C22494CF2323F9A068D50A0BC3 /* ErKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A3713FB5B5E888535E2ECAA398DA2F2 /* Pods-ErKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB9F03A08B96C3FA6D76306B6A1DE96 /* Build configuration list for PBXNativeTarget "Pods-ErKit_Example" */;
+			buildPhases = (
+				B6C0F0EA3BFCD698DBF12CD6187D41AC /* Headers */,
+				47A083EA0BA0777D80C88432F9EDB7A0 /* Sources */,
+				6AE4E5E16B804D5579C5134C9490E350 /* Frameworks */,
+				0D10D56456D5FA0BBCA33E818625916C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4566AE7819EAE86D1E7ADCEA4F880646 /* PBXTargetDependency */,
+			);
+			name = "Pods-ErKit_Example";
+			productName = Pods_ErKit_Example;
+			productReference = 4D0CBF2ABED44FEBBC8C549F9143A116 /* Pods-ErKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D73153DDD8A1FC18205C98C5FA2B3024 /* ErKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168B11F845FEDC9824B7FEB29240FC0D /* Build configuration list for PBXNativeTarget "ErKit" */;
+			buildPhases = (
+				CBA35BF7A6D41B8DA2204CF0C1BAA324 /* Headers */,
+				75D2D4C96C160443FD9CB478EF443759 /* Sources */,
+				040EDC24CF9D02F8C5B7776AA813712D /* Frameworks */,
+				E8C95E9885695453E0B0A1ADBCCA8F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ErKit;
+			productName = ErKit;
+			productReference = EB96DDB0FD6BECA6FF44B0A8D3300643 /* ErKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA479A66101A2666432AA9DC604B8DBE /* Pods-ErKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32448AFA04B39CD3882506D374C3EF35 /* Build configuration list for PBXNativeTarget "Pods-ErKit_Tests" */;
+			buildPhases = (
+				54286B688235E20BA6F17EBE3DED7576 /* Headers */,
+				CAE69A535610F2BBCE69F146B51BF1A3 /* Sources */,
+				77B6C3D72A5B78B79436BA7D90B2EAD9 /* Frameworks */,
+				31C41D29AE0E813CB826E418E4D21717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEE7741F79C395624E365365F88F800 /* PBXTargetDependency */,
+			);
+			name = "Pods-ErKit_Tests";
+			productName = Pods_ErKit_Tests;
+			productReference = 6FDED9B0F8EF71C6E98DEAA034CB4A70 /* Pods-ErKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D73153DDD8A1FC18205C98C5FA2B3024 = {
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D3C5A20533E238F6A83C603A49706F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D73153DDD8A1FC18205C98C5FA2B3024 /* ErKit */,
+				7A3713FB5B5E888535E2ECAA398DA2F2 /* Pods-ErKit_Example */,
+				FA479A66101A2666432AA9DC604B8DBE /* Pods-ErKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D10D56456D5FA0BBCA33E818625916C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C41D29AE0E813CB826E418E4D21717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C95E9885695453E0B0A1ADBCCA8F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE3881F2754F80E0069149C /* .gitkeep in Resources */,
+				0DE388242754F80E0069149C /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47A083EA0BA0777D80C88432F9EDB7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7323CDDE142AB12BE9A64A71EDE167BE /* Pods-ErKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D2D4C96C160443FD9CB478EF443759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE3882C2754F80E0069149C /* ERExtension+UIColor.swift in Sources */,
+				0DE388212754F80E0069149C /* ERExtension+NSObject.swift in Sources */,
+				0DE3882E2754F80E0069149C /* ERExtension+UIDevice.swift in Sources */,
+				0DE388292754F80E0069149C /* ERExtension+URL.swift in Sources */,
+				0DE3882B2754F80E0069149C /* ERExtension.swift in Sources */,
+				0DE388202754F80E0069149C /* ERExtension+UIImage.swift in Sources */,
+				0DE388262754F80E0069149C /* ERExtension+SwiftyStoreKit.swift in Sources */,
+				0DE388322754F80E0069149C /* ERExtension+UIView.swift in Sources */,
+				0DE388272754F80E0069149C /* ERExtension+UITableViewCell.swift in Sources */,
+				C439006E1C71A52B13A9151CE660F00A /* ErKit-dummy.m in Sources */,
+				0DE3882D2754F80E0069149C /* ERExtension+Int.swift in Sources */,
+				0DE388312754F80E0069149C /* ERExtension+NSTextAlignment.swift in Sources */,
+				0DE3882F2754F80E0069149C /* ERExtension+UIApplication.swift in Sources */,
+				0DE388222754F80E0069149C /* ERExtension+String.swift in Sources */,
+				0DE3881E2754F80E0069149C /* EZLog.swift in Sources */,
+				0DE388252754F80E0069149C /* ERExtension+Date.swift in Sources */,
+				0DE388282754F80E0069149C /* ERExtension+Array.swift in Sources */,
+				0DE388302754F80E0069149C /* ERExtension+UIBarButtonItem.swift in Sources */,
+				0DE3882A2754F80E0069149C /* ERExtension+UIButton.swift in Sources */,
+				0DE388232754F80E0069149C /* ERExtension+UIEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE69A535610F2BBCE69F146B51BF1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A03C97544A8D896B28BDB6201D0CDEB /* Pods-ErKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4566AE7819EAE86D1E7ADCEA4F880646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ErKit;
+			target = D73153DDD8A1FC18205C98C5FA2B3024 /* ErKit */;
+			targetProxy = 33CD608D32E0ED48FCD83371C56AAE96 /* PBXContainerItemProxy */;
+		};
+		ECEE7741F79C395624E365365F88F800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ErKit_Example";
+			target = 7A3713FB5B5E888535E2ECAA398DA2F2 /* Pods-ErKit_Example */;
+			targetProxy = 38640CF10CF35E548EB8DC09CE67FA98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E269505BC96A7E4C58BEE52A1D674C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBC1C01F40C096B95998C7159BE9493 /* Pods-ErKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ErKit_Tests/Pods-ErKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ErKit_Tests/Pods-ErKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2990B0DB23BE96ECF3FE298B8E6BC212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E084C0FB7CFF9703AC4F2409FD74AB6E /* ErKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ErKit/ErKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ErKit/ErKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ErKit/ErKit.modulemap";
+				PRODUCT_MODULE_NAME = ErKit;
+				PRODUCT_NAME = ErKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B88BD68B2EF99B80FF66E81F26032A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D190E3070610C7478327C954DFA93C /* Pods-ErKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ErKit_Example/Pods-ErKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ErKit_Example/Pods-ErKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE76A4E2526DD2AC475CFC2A6040CA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768507462B633CA910A85D337508D806 /* Pods-ErKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ErKit_Example/Pods-ErKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ErKit_Example/Pods-ErKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1F7EEF1E25BF8D86725F824839D8535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E786B323647E92951545103D818874 /* ErKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ErKit/ErKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ErKit/ErKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ErKit/ErKit.modulemap";
+				PRODUCT_MODULE_NAME = ErKit;
+				PRODUCT_NAME = ErKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F78AE32E680B8BF012D0F46F4153A381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CADAAC41C25845FC118E97E575DFEA3 /* Pods-ErKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ErKit_Tests/Pods-ErKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ErKit_Tests/Pods-ErKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168B11F845FEDC9824B7FEB29240FC0D /* Build configuration list for PBXNativeTarget "ErKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2990B0DB23BE96ECF3FE298B8E6BC212 /* Debug */,
+				C1F7EEF1E25BF8D86725F824839D8535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BB9F03A08B96C3FA6D76306B6A1DE96 /* Build configuration list for PBXNativeTarget "Pods-ErKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE76A4E2526DD2AC475CFC2A6040CA25 /* Debug */,
+				B88BD68B2EF99B80FF66E81F26032A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32448AFA04B39CD3882506D374C3EF35 /* Build configuration list for PBXNativeTarget "Pods-ErKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78AE32E680B8BF012D0F46F4153A381 /* Debug */,
+				0E269505BC96A7E4C58BEE52A1D674C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

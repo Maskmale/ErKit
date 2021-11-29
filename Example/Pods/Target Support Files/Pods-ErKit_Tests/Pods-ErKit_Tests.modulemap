@@ -1,0 +1,6 @@
+framework module Pods_ErKit_Tests {
+  umbrella header "Pods-ErKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

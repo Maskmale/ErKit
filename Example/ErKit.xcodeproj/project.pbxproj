@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		038E3B2177097A401BDDC43B /* Pods-ErKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ErKit_Example/Pods-ErKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		53B9A2822E56028547F285CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		53B9A2822E56028547F285CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C4F39CF239B556D5FB4564A /* Pods_ErKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ErKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7EB7C1CD50E55FEF77C4C690 /* Pods_ErKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		809A5A66A40B9F32B82F8EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		809A5A66A40B9F32B82F8EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8DDD1F0B951F8164D45008D2 /* Pods-ErKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ErKit_Tests/Pods-ErKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96F8949D69CB03C17E07241C /* Pods-ErKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ErKit_Example/Pods-ErKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B7A2A95A5C7C26CD412037D1 /* ErKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ErKit.podspec; path = ../ErKit.podspec; sourceTree = "<group>"; };
+		B7A2A95A5C7C26CD412037D1 /* ErKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ErKit.podspec; path = ../ErKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB5818BF2139C81ECF429978 /* Pods-ErKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ErKit_Tests/Pods-ErKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				8DDD1F0B951F8164D45008D2 /* Pods-ErKit_Tests.debug.xcconfig */,
 				FB5818BF2139C81ECF429978 /* Pods-ErKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

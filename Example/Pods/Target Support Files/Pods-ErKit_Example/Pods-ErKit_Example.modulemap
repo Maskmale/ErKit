@@ -1,0 +1,6 @@
+framework module Pods_ErKit_Example {
+  umbrella header "Pods-ErKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ErKit {
+  umbrella header "ErKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

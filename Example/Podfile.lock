@@ -1,0 +1,16 @@
+PODS:
+  - ErKit (0.1.0)
+
+DEPENDENCIES:
+  - ErKit (from `../`)
+
+EXTERNAL SOURCES:
+  ErKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ErKit: ccd933d9b7ce40827af88eabe1069a472eb1d905
+
+PODFILE CHECKSUM: 295d402bd180866f0dae41c718dcc885bdc4ca94
+
+COCOAPODS: 1.11.2
