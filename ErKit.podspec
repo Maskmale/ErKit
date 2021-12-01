@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ErKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ErKit is a swift extension superset'
 
 # This description is used to generate tags and improve search results.
