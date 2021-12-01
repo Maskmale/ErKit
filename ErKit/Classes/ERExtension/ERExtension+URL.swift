@@ -1,8 +1,9 @@
 //
 //  ERExtension+URL.swift
-//  NurKeyboard
+//  ErKit
 //
-//  Created by Erbash on 2020/12/19.
+//  Created by Erbash on 11/29/2021.
+//  Copyright (c) 2021 Erbash. All rights reserved.
 //
 
 import Foundation
@@ -31,7 +32,7 @@ extension URL {
             do {
                 try setResourceValues(resourceValues)
             } catch {
-                print("isHidden error:", error)
+                ERLog("isHidden error:\(error)")
             }
         }
     }

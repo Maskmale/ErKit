@@ -10,14 +10,11 @@
 		03289A02187096BF12BDB5DAFCEEA998 /* Pods-ErKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 852DB728FB85D6D496C5B0E8B0F8AC79 /* Pods-ErKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A03C97544A8D896B28BDB6201D0CDEB /* Pods-ErKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306E152DBC9EDCA89DCA259A97C0606 /* Pods-ErKit_Tests-dummy.m */; };
 		0DE3881E2754F80E0069149C /* EZLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388082754F80E0069149C /* EZLog.swift */; };
-		0DE3881F2754F80E0069149C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0DE388092754F80E0069149C /* .gitkeep */; };
 		0DE388202754F80E0069149C /* ERExtension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880B2754F80E0069149C /* ERExtension+UIImage.swift */; };
 		0DE388212754F80E0069149C /* ERExtension+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880C2754F80E0069149C /* ERExtension+NSObject.swift */; };
 		0DE388222754F80E0069149C /* ERExtension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880D2754F80E0069149C /* ERExtension+String.swift */; };
 		0DE388232754F80E0069149C /* ERExtension+UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3880E2754F80E0069149C /* ERExtension+UIEdgeInsets.swift */; };
-		0DE388242754F80E0069149C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0DE3880F2754F80E0069149C /* .gitkeep */; };
 		0DE388252754F80E0069149C /* ERExtension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388102754F80E0069149C /* ERExtension+Date.swift */; };
-		0DE388262754F80E0069149C /* ERExtension+SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388112754F80E0069149C /* ERExtension+SwiftyStoreKit.swift */; };
 		0DE388272754F80E0069149C /* ERExtension+UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388122754F80E0069149C /* ERExtension+UITableViewCell.swift */; };
 		0DE388282754F80E0069149C /* ERExtension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388132754F80E0069149C /* ERExtension+Array.swift */; };
 		0DE388292754F80E0069149C /* ERExtension+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE388142754F80E0069149C /* ERExtension+URL.swift */; };
@@ -30,6 +27,7 @@
 		0DE388302754F80E0069149C /* ERExtension+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3881B2754F80E0069149C /* ERExtension+UIBarButtonItem.swift */; };
 		0DE388312754F80E0069149C /* ERExtension+NSTextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3881C2754F80E0069149C /* ERExtension+NSTextAlignment.swift */; };
 		0DE388322754F80E0069149C /* ERExtension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3881D2754F80E0069149C /* ERExtension+UIView.swift */; };
+		0DE3883427553A360069149C /* ERExtension+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3883327553A360069149C /* ERExtension+CGRect.swift */; };
 		0E26C6C22494CF2323F9A068D50A0BC3 /* ErKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 649A85D1FE73BC8DEAF71F0D621B8E6F /* ErKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7323CDDE142AB12BE9A64A71EDE167BE /* Pods-ErKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2D68EF3D2172F6F9F26CBD1B31B06 /* Pods-ErKit_Example-dummy.m */; };
 		BD2A0D8C2B2C3D067A6E9A3D23FD9719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -58,14 +56,11 @@
 
 /* Begin PBXFileReference section */
 		0DE388082754F80E0069149C /* EZLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLog.swift; sourceTree = "<group>"; };
-		0DE388092754F80E0069149C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		0DE3880B2754F80E0069149C /* ERExtension+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIImage.swift"; sourceTree = "<group>"; };
 		0DE3880C2754F80E0069149C /* ERExtension+NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+NSObject.swift"; sourceTree = "<group>"; };
 		0DE3880D2754F80E0069149C /* ERExtension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+String.swift"; sourceTree = "<group>"; };
 		0DE3880E2754F80E0069149C /* ERExtension+UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIEdgeInsets.swift"; sourceTree = "<group>"; };
-		0DE3880F2754F80E0069149C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		0DE388102754F80E0069149C /* ERExtension+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+Date.swift"; sourceTree = "<group>"; };
-		0DE388112754F80E0069149C /* ERExtension+SwiftyStoreKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+SwiftyStoreKit.swift"; sourceTree = "<group>"; };
 		0DE388122754F80E0069149C /* ERExtension+UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UITableViewCell.swift"; sourceTree = "<group>"; };
 		0DE388132754F80E0069149C /* ERExtension+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+Array.swift"; sourceTree = "<group>"; };
 		0DE388142754F80E0069149C /* ERExtension+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+URL.swift"; sourceTree = "<group>"; };
@@ -78,6 +73,7 @@
 		0DE3881B2754F80E0069149C /* ERExtension+UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIBarButtonItem.swift"; sourceTree = "<group>"; };
 		0DE3881C2754F80E0069149C /* ERExtension+NSTextAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+NSTextAlignment.swift"; sourceTree = "<group>"; };
 		0DE3881D2754F80E0069149C /* ERExtension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ERExtension+UIView.swift"; sourceTree = "<group>"; };
+		0DE3883327553A360069149C /* ERExtension+CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ERExtension+CGRect.swift"; sourceTree = "<group>"; };
 		343AC736E7E29698324DE0BA85D257CA /* Pods-ErKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ErKit_Example.modulemap"; sourceTree = "<group>"; };
 		417357917989D7FAC4D359EBC580DE48 /* Pods-ErKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ErKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		42502941AC14107D62D701CAEBF0A03B /* ErKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ErKit-dummy.m"; sourceTree = "<group>"; };
@@ -161,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				0DE388082754F80E0069149C /* EZLog.swift */,
-				0DE388092754F80E0069149C /* .gitkeep */,
 				0DE3880A2754F80E0069149C /* ERExtension */,
 			);
 			name = Classes;
@@ -171,25 +166,24 @@
 		0DE3880A2754F80E0069149C /* ERExtension */ = {
 			isa = PBXGroup;
 			children = (
-				0DE3880B2754F80E0069149C /* ERExtension+UIImage.swift */,
-				0DE3880C2754F80E0069149C /* ERExtension+NSObject.swift */,
-				0DE3880D2754F80E0069149C /* ERExtension+String.swift */,
-				0DE3880E2754F80E0069149C /* ERExtension+UIEdgeInsets.swift */,
-				0DE3880F2754F80E0069149C /* .gitkeep */,
-				0DE388102754F80E0069149C /* ERExtension+Date.swift */,
-				0DE388112754F80E0069149C /* ERExtension+SwiftyStoreKit.swift */,
-				0DE388122754F80E0069149C /* ERExtension+UITableViewCell.swift */,
-				0DE388132754F80E0069149C /* ERExtension+Array.swift */,
-				0DE388142754F80E0069149C /* ERExtension+URL.swift */,
-				0DE388152754F80E0069149C /* ERExtension+UIButton.swift */,
 				0DE388162754F80E0069149C /* ERExtension.swift */,
-				0DE388172754F80E0069149C /* ERExtension+UIColor.swift */,
+				0DE388132754F80E0069149C /* ERExtension+Array.swift */,
+				0DE388102754F80E0069149C /* ERExtension+Date.swift */,
 				0DE388182754F80E0069149C /* ERExtension+Int.swift */,
-				0DE388192754F80E0069149C /* ERExtension+UIDevice.swift */,
+				0DE3880C2754F80E0069149C /* ERExtension+NSObject.swift */,
+				0DE3881C2754F80E0069149C /* ERExtension+NSTextAlignment.swift */,
+				0DE3880D2754F80E0069149C /* ERExtension+String.swift */,
 				0DE3881A2754F80E0069149C /* ERExtension+UIApplication.swift */,
 				0DE3881B2754F80E0069149C /* ERExtension+UIBarButtonItem.swift */,
-				0DE3881C2754F80E0069149C /* ERExtension+NSTextAlignment.swift */,
+				0DE388152754F80E0069149C /* ERExtension+UIButton.swift */,
+				0DE388172754F80E0069149C /* ERExtension+UIColor.swift */,
+				0DE388192754F80E0069149C /* ERExtension+UIDevice.swift */,
+				0DE3880E2754F80E0069149C /* ERExtension+UIEdgeInsets.swift */,
+				0DE3880B2754F80E0069149C /* ERExtension+UIImage.swift */,
+				0DE388122754F80E0069149C /* ERExtension+UITableViewCell.swift */,
 				0DE3881D2754F80E0069149C /* ERExtension+UIView.swift */,
+				0DE388142754F80E0069149C /* ERExtension+URL.swift */,
+				0DE3883327553A360069149C /* ERExtension+CGRect.swift */,
 			);
 			path = ERExtension;
 			sourceTree = "<group>";
@@ -439,8 +433,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE3881F2754F80E0069149C /* .gitkeep in Resources */,
-				0DE388242754F80E0069149C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +457,7 @@
 				0DE388292754F80E0069149C /* ERExtension+URL.swift in Sources */,
 				0DE3882B2754F80E0069149C /* ERExtension.swift in Sources */,
 				0DE388202754F80E0069149C /* ERExtension+UIImage.swift in Sources */,
-				0DE388262754F80E0069149C /* ERExtension+SwiftyStoreKit.swift in Sources */,
+				0DE3883427553A360069149C /* ERExtension+CGRect.swift in Sources */,
 				0DE388322754F80E0069149C /* ERExtension+UIView.swift in Sources */,
 				0DE388272754F80E0069149C /* ERExtension+UITableViewCell.swift in Sources */,
 				C439006E1C71A52B13A9151CE660F00A /* ErKit-dummy.m in Sources */,

@@ -1,8 +1,9 @@
 //
 //  ERExtension+UIApplication.swift
-//  OzKeyboard
+//  ErKit
 //
-//  Created by Erbash on 2021/1/22.
+//  Created by Erbash on 11/29/2021.
+//  Copyright (c) 2021 Erbash. All rights reserved.
 //
 // https://github.com/glennposadas/locpush-ios
 // https://onevcat.com/2016/08/notification/

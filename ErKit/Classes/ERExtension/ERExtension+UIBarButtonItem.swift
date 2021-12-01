@@ -1,15 +1,45 @@
 //
 //  ERUIBarButtonItemExtension.swift
-//  NurKeyboard
+//  ErKit
 //
-//  Created by Erbash on 2020/12/19.
+//  Created by Erbash on 11/29/2021.
+//  Copyright (c) 2021 Erbash. All rights reserved.
 //
 
 import UIKit
 
 //MARK: - UIBarButtonItem Extension
-extension UIBarButtonItem {
-    class func ERItem(imageName: String, highlightedImageName: String, selectedImageName: String, target:Any,
+public extension UIBarButtonItem {
+    
+    convenience init(imageName: String, highlightedImageName: String?, selectedImageName: String?, target: Any,
+                                     action:Selector) {
+        self.init()
+        let btn = UIButton(type: .custom);
+        //如果 imageName 不为 nil
+        btn.setImage(UIImage(named: imageName), for: .normal)
+        
+        //如果 highlightedImageName 不为 nil
+        if highlightedImageName != nil {
+            btn.setImage(UIImage(named: highlightedImageName!), for: .highlighted)
+        }
+
+        //如果 selectedImageName 不为 nil
+        if selectedImageName != nil {
+            btn.setImage(UIImage(named: selectedImageName!), for: .selected)
+        }
+        
+        btn.sizeToFit()
+        if btn.ERH > 44 {
+            ERLog("UIBarButtonItem 高度大于导航栏高度", logEmoji: .rotatingLight)
+        }
+        btn.addTarget(target, action: action, for: .touchUpInside)
+        let containView = UIView.init(frame: btn.bounds)
+        containView.addSubview(btn)
+        
+        self.customView = containView
+    }
+    
+    class func ERItem(imageName: String, highlightedImageName: String, selectedImageName: String, target: Any,
         action:Selector) -> UIBarButtonItem {
         
         let btn = UIButton(type: .custom);
@@ -30,7 +60,7 @@ extension UIBarButtonItem {
         return UIBarButtonItem.init(customView: containView)
     }
     
-    class func ERItem(imageName: String, highlightedImageName: String, target:Any,
+    class func ERItem(imageName: String, highlightedImageName: String, target: Any,
         action:Selector) -> UIBarButtonItem {
         
         let btn = UIButton(type: .custom);
@@ -49,7 +79,7 @@ extension UIBarButtonItem {
         return UIBarButtonItem.init(customView: containView)
     }
     
-    class func ERItem(imageName: String, selectedImageName: String, target:Any,
+    class func ERItem(imageName: String, selectedImageName: String, target: Any,
         action:Selector) -> UIBarButtonItem {
         
         let btn = UIButton(type: .custom);
@@ -68,7 +98,7 @@ extension UIBarButtonItem {
         return UIBarButtonItem.init(customView: containView)
     }
     
-    class func ERBackItem(imageName: String, highlightedImageName: String,title: String, target:Any,
+    class func ERBackItem(imageName: String, highlightedImageName: String,title: String, target: Any,
         action:Selector) -> UIBarButtonItem {
         
         let btn = UIButton(type: .custom);

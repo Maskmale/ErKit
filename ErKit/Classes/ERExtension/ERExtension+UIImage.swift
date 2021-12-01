@@ -1,8 +1,9 @@
 //
 //  ERExtension+UIImage.swift
-//  NurKeyboard
+//  ErKit
 //
-//  Created by Erbash on 2020/12/19.
+//  Created by Erbash on 11/29/2021.
+//  Copyright (c) 2021 Erbash. All rights reserved.
 //
 
 import UIKit
@@ -44,7 +45,7 @@ extension UIImage {
     }
     
     
-    public enum EZWritingDirection : Int {
+    public enum ERWritingDirection : Int {
         case natural = -1 // Determines direction using the Unicode Bidi Algorithm rules P2 and P3
 
         case leftToRight = 0 // Left to right writing direction
@@ -94,7 +95,7 @@ extension UIImage {
 //        return fullImage
     }
     
-    func drawText(drawText text: String, writingDirection direction:EZWritingDirection, font: UIFont, textColor: UIColor, atPoint point: CGPoint) -> UIImage {
+    func drawText(drawText text: String, writingDirection direction:ERWritingDirection, font: UIFont, textColor: UIColor, atPoint point: CGPoint) -> UIImage {
         
         UIGraphicsBeginImageContext(self.size)
 

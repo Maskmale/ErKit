@@ -1,8 +1,9 @@
 //
 //  ERExtension+String.swift
-//  NurKeyboard
+//  ErKit
 //
-//  Created by Erbash on 2020/12/19.
+//  Created by Erbash on 11/29/2021.
+//  Copyright (c) 2021 Erbash. All rights reserved.
 //
 
 import UIKit

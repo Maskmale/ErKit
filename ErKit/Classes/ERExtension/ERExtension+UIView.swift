@@ -1,8 +1,9 @@
 //
 //  ERUIViewExtension.swift
-//  NurKeyboard
+//  ErKit
 //
-//  Created by Erbash on 2020/12/19.
+//  Created by Erbash on 11/29/2021.
+//  Copyright (c) 2021 Erbash. All rights reserved.
 //
 
 import UIKit
@@ -130,8 +131,21 @@ public extension UIView {
     }
 }
 
+//MARK: - 层级关系
+extension UIView {
+    // 图层的显示顺序(层级关系)
+    @IBInspectable public var ERZPosition: CGFloat {
+        get {
+            return self.layer.zPosition
+        }
+        set {
+            self.layer.zPosition = newValue
+        }
+    }
+}
 
-//MARK: - LayerExtenstion
+
+//MARK: - LayerStyleExtenstion
 extension UIView {
     
     /**
@@ -208,17 +222,10 @@ extension UIView {
             self.layer.shadowOffset = newValue
         }
     }
-    
-    // 图层的显示顺序(层级关系)
-    @IBInspectable public var ERZPosition: CGFloat {
-        get {
-            return self.layer.zPosition
-        }
-        set {
-            self.layer.zPosition = newValue
-        }
-    }
-        
+}
+
+//MARK: - LayerStyleExtenstion
+extension UIView {
     /// 设置圆角
     /// - Parameter cRadius: 圆角半径
     public func setERLayer(cRadius:CGFloat) {
@@ -331,7 +338,7 @@ extension UIView {
 }
 
 
-//MARK: - Other
+//MARK: - 渐变色
 extension UIView {
     /// 设置渐变色
     /// - Parameter colors: 渐变色数组
@@ -347,6 +354,10 @@ extension UIView {
         layer.endPoint = CGPoint(x: 0, y: 0.5)
         self.layer.addSublayer(layer)
     }
+}
+
+//MARK: - 子视图
+extension UIView {
 
     /// 添加多个子视图
     /// - Parameter subviews: 子视图数组
@@ -359,6 +370,9 @@ extension UIView {
         subviews.forEach({ $0.removeFromSuperview() })
     }
     
+}
+
+extension UIView {
     /// 第一响应者
     public func ERFirstResponder() -> UIView? {
         var views = [UIView](arrayLiteral: self)
@@ -373,7 +387,9 @@ extension UIView {
         } while i < views.count
         return nil
     }
-    
+}
+
+extension UIView {
     /// 获取父控制器
     public var ERParentViewController: UIViewController? {
         weak var parentResponder: UIResponder? = self
@@ -385,7 +401,10 @@ extension UIView {
         }
         return nil
     }
-    
+}
+
+//MARK: - 截图
+extension UIView {
     /// 截图 View
     /// - Returns: 视图截图
     func ERScreenshot() -> UIImage? {

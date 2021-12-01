@@ -1,9 +1,16 @@
 //
 //  ERExtension+UIDevice.swift
-//  NurKeyboard
+//  ErKit
 //
-//  Created by Erbash on 2020/12/19.
+//  Created by Erbash on 11/29/2021.
+//  Copyright (c) 2021 Erbash. All rights reserved.
 //
+//  https://www.theiphonewiki.com/wiki/Models
+//  https://github.com/pluwen/apple-device-model-list
+//  https://medium.com/ios-os-x-development/get-model-info-of-ios-devices-18bc8f32c254
+//  https://github.com/djphoenix/ios-device-model-names/tree/main/Sources/DeviceModelNames
+//  https://github.com/stephanheilner/UIDevice-DisplayName
+//  https://github.com/MasamiYamate/YMTGetDeviceName
 
 import UIKit
 
@@ -166,9 +173,4 @@ extension UIDevice {
     func iPad() ->Bool {
         return UIDevice.current.userInterfaceIdiom == .pad ? true : false
     }
-    
-//    func iphoneX() -> Bool {
-//        // FIXME: 逻辑待完善
-//        return self.modelName.prefix(6) == "iPhone" ? true : false
-//    }
 }
